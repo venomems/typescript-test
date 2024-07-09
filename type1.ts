@@ -44,3 +44,7 @@ const login: Login = 'admin';
 type ID = string | number;
 const id1: ID = 123;
 const id2: ID = '123';
+
+// null и undefined
+type SomeType = string | null | undefined;
+
