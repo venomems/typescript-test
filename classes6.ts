@@ -28,3 +28,21 @@ class Car {
     constructor(readonly model: string) {}
 }
 // ---------------------------------------------
+class Animal {
+    // private, public, protected
+
+}
+
+abstract class Component {
+    abstract render(): void
+    abstract info(): void
+}
+
+class AppComponent extends Component{
+    render(): void {
+        console.log('render')
+    }
+    info(): string {
+        return 'info!'
+    }
+}
